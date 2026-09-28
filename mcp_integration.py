@@ -1,0 +1,197 @@
+import os
+import pickle
+from datetime import datetime
+from google.auth.transport.requests import Request
+from google.oauth2.credentials import Credentials
+from google_auth_oauthlib.flow import InstalledAppFlow
+from googleapiclient.discovery import build
+from googleapiclient.http import MediaInMemoryUpload
+import base64
+from email.mime.text import MIMEText
+
+# ── SETTINGS ──────────────────────────────────────────────────────────
+ALERT_EMAIL = "kovvalisairaxita@gmail.com"   # ← Change to your email
+DRIVE_FOLDER_NAME = "Image Analysis Results"
+
+# Permissions we need
+SCOPES = [
+    'https://www.googleapis.com/auth/drive.file',
+    'https://www.googleapis.com/auth/gmail.compose'
+]
+
+TOKEN_FILE = "google_token.pkl"
+CREDENTIALS_FILE = "google_credentials.json"
+
+
+def get_google_credentials():
+    """
+    Handle Google login. Opens browser on first run.
+    Saves token so you don't have to log in every time.
+    """
+    creds = None
+
+    # Load saved token if exists
+    if os.path.exists(TOKEN_FILE):
+        with open(TOKEN_FILE, 'rb') as f:
+            creds = pickle.load(f)
+
+    # If no valid credentials, log in
+    if not creds or not creds.valid:
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(Request())
+        else:
+            if not os.path.exists(CREDENTIALS_FILE):
+                print("\n ERROR: google_credentials.json not found!")
+                print("   Follow the setup steps to create it.")
+                return None
+
+            flow = InstalledAppFlow.from_client_secrets_file(
+                CREDENTIALS_FILE, SCOPES
+            )
+            creds = flow.run_local_server(port=0)
+
+        # Save token for next time
+        with open(TOKEN_FILE, 'wb') as f:
+            pickle.dump(creds, f)
+
+    return creds
+
+
+def get_or_create_drive_folder(drive_service, folder_name):
+    """
+    Find existing folder in Drive or create it if not found.
+    """
+    # Search for folder
+    query = f"name='{folder_name}' and mimeType='application/vnd.google-apps.folder' and trashed=false"
+    results = drive_service.files().list(q=query, fields="files(id, name)").execute()
+    folders = results.get('files', [])
+
+    if folders:
+        return folders[0]['id']
+
+    # Create folder if not found
+    folder_metadata = {
+        'name': folder_name,
+        'mimeType': 'application/vnd.google-apps.folder'
+    }
+    folder = drive_service.files().create(body=folder_metadata, fields='id').execute()
+    print(f"   Created folder '{folder_name}' in Google Drive")
+    return folder.get('id')
+
+
+def save_to_google_drive(image_name, interpretation, flag_status, keywords=None):
+    """
+    Save analysis result as a text file in Google Drive.
+    """
+    print("   Connecting to Google Drive...")
+
+    creds = get_google_credentials()
+    if not creds:
+        return False
+
+    try:
+        drive_service = build('drive', 'v3', credentials=creds)
+
+        # Get or create the folder
+        folder_id = get_or_create_drive_folder(drive_service, DRIVE_FOLDER_NAME)
+
+        # Build the content
+        timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        content = f"""IMAGE ANALYSIS REPORT
+Generated   : {timestamp}
+Image       : {image_name}
+Flag Status : {flag_status}
+
+INTERPRETATION:
+{interpretation}
+"""
+        if keywords:
+            content += f"\nSENSITIVE KEYWORDS DETECTED: {', '.join(keywords)}\n"
+
+        content += "\n"
+
+        # File name
+        base_name = image_name.split('.')[0]
+        file_name = f"{base_name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+
+        # Upload to Drive
+        file_metadata = {
+            'name': file_name,
+            'parents': [folder_id]
+        }
+
+        media = MediaInMemoryUpload(
+            content.encode('utf-8'),
+            mimetype='text/plain'
+        )
+
+        drive_service.files().create(
+            body=file_metadata,
+            media_body=media,
+            fields='id'
+        ).execute()
+
+        print(f"Saved to Google Drive → '{DRIVE_FOLDER_NAME}/{file_name}'")
+        return True
+
+    except Exception as e:
+        print(f"Google Drive save failed: {e}")
+        return False
+
+
+def send_gmail_alert(image_name, interpretation, keywords):
+    """
+    Create a Gmail DRAFT for flagged image alerts.
+    You go to Gmail Drafts and press Send yourself.
+    """
+    print("   Connecting to Gmail...")
+
+    creds = get_google_credentials()
+    if not creds:
+        return False
+
+    try:
+        gmail_service = build('gmail', 'v1', credentials=creds)
+
+        timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+        email_body = f"""Hi,
+
+This is an automated alert from the Image Analysis System.
+A sensitive image has been detected and requires your review.
+
+IMAGE DETAILS
+Image Name   : {image_name}
+Detected At  : {timestamp}
+Keywords     : {', '.join(keywords)}
+
+INTERPRETATION
+{interpretation}
+
+ACTION REQUIRED
+Please review this image manually and decide on next steps.
+
+This email was auto-generated by the Image Analysis System.
+"""
+
+        # Create the email
+        message = MIMEText(email_body)
+        message['to'] = ALERT_EMAIL
+        message['subject'] = f"FLAGGED IMAGE ALERT - {image_name} - {timestamp}"
+
+        # Encode and create draft
+        raw = base64.urlsafe_b64encode(message.as_bytes()).decode()
+        draft_body = {'message': {'raw': raw}}
+
+        gmail_service.users().drafts().create(
+            userId='me',
+            body=draft_body
+        ).execute()
+
+        print(f"Gmail draft created → Check your Gmail Drafts folder")
+        print(f"   Open Gmail → Drafts → review → press Send")
+        return True
+
+    except Exception as e:
+        print(f"Gmail draft failed: {e}")
+        return False

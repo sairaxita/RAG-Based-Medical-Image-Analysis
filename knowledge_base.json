@@ -1,0 +1,389 @@
+[
+  {
+    "id": 1,
+    "image_path": "kb_images/pic1.jpeg",
+    "interpretation": "This cheerful infographic shows how walking is a simple, powerful way to boost your health—listing benefits like better sleep, stress relief, and heart health. It feels uplifting and encouraging, like a friendly nudge to get moving. The creator wants you to see walking not as a chore, but as a joyful, accessible daily habit that makes you feel stronger, healthier, and more balanced.",
+    "is_flagged": false,
+    "flag_reason": "safe",
+    "category": "health",
+    "added_at": "2026-05-07T19:34:39.011493"
+  },
+  {
+    "id": 2,
+    "image_path": "kb_images/pic6.png",
+    "interpretation": "This image gently reminds you that true health isn't just about intense effort—it's about rest, nourishment, and peace. It's meant to soothe your mind and encourage you to slow down, because your body and soul heal and grow when you're not pushing. The creator wants you to know: recovery isn't lazy—it's essential.",
+    "is_flagged": false,
+    "flag_reason": "safe",
+    "category": "wellness",
+    "added_at": "2026-05-07T19:34:39.011746"
+  },
+  {
+    "id": 3,
+    "image_path": "kb_images/pic2.jpg",
+    "interpretation": "The image is an advertisement for Sankranti, a traditional Indian festival that celebrates the transition of the sun from winter to summer. The intent of the image is to promote ancient bio-hacks for a modern you, celebrating the science of Sankranti. The emotional message is to celebrate the transition of the sun and the start of a new season, encouraging people to embrace the changes and enjoy the benefits of the season. The creator wants the viewer to understand that Sankranti is a time to celebrate nature and the cycle of life, and to embrace the changes that come with it.\n",
+    "is_flagged": false,
+    "flag_reason": "safe",
+    "category": "wellness",
+    "added_at": "2026-05-07T19:34:39.011928"
+  },
+  {
+    "id": 4,
+    "image_path": "kb_images/pic4.jpg",
+    "interpretation": "This image is a message from ReLiv, a wellness studio that focuses on improving metabolic health, women's health, fitness, skin, and hair, and oral health. The image is designed to convey the message that poor sleep and high stress can negatively impact weight loss. The creator wants the viewer to understand that addressing these factors can lead to better health outcomes.\n\n",
+    "is_flagged": false,
+    "flag_reason": "safe",
+    "category": "wellness",
+    "added_at": "2026-05-07T19:34:39.012127"
+  },
+  {
+    "id": 5,
+    "image_path": "kb_images/pic15.png",
+    "interpretation": "The image is a poster celebrating World Health Day, which is observed annually on April 7. The poster conveys a sense of unity and care for global health, with a heart-shaped design representing the world and a red cross symbolizing health. The creator wants the viewer to understand the importance of global health and the need for collaboration and support in promoting health worldwide.\n\n\n",
+    "is_flagged": false,
+    "flag_reason": "safe",
+    "category": "wellness",
+    "added_at": "2026-05-07T19:34:39.012227"
+  },
+  {
+    "id": 6,
+    "image_path": "kb_images/pic16.jpg",
+    "interpretation": "This image is a poster designed to provide instructions on how to wash hands properly. It aims to convey the importance of good hygiene practices and the first step in maintaining cleanliness. The creator wants the viewer to understand the importance of washing hands regularly to prevent the spread of germs and maintain overall health.\n\n\n",
+    "is_flagged": false,
+    "flag_reason": "safe",
+    "category": "wellness",
+    "added_at": "2026-05-07T19:34:39.012320"
+  },
+  {
+    "id": 7,
+    "image_path": "kb_images/pic17.png",
+    "interpretation": "This image is an educational infographic designed to inform viewers about the risks associated with consuming ice cream and the importance of proper hygiene when eating it. The emotional message is to promote health and safety, emphasizing that ice cream can be a source of germs and that proper hygiene practices are crucial to avoid illness. The creator wants the viewer to understand the risks and the importance of taking precautions when eating ice cream.\n\n\n",
+    "is_flagged": false,
+    "flag_reason": "safe",
+    "category": "wellness",
+    "added_at": "2026-05-07T19:34:39.012478"
+  },
+  {
+    "id": 8,
+    "image_path": "kb_images/pic18.jpg",
+    "interpretation": "The image is promoting World Mental Health Awareness Month. It conveys a message of healing and courage, encouraging people to seek help when they need it. The creator wants the viewer to understand the importance of seeking help for mental health issues and the courage it takes to do so.\n\n\n",
+    "is_flagged": false,
+    "flag_reason": "safe",
+    "category": "wellness",
+    "added_at": "2026-05-07T19:34:39.012538"
+  },
+  {
+    "id": 9,
+    "image_path": "kb_images/pic3.jpg",
+    "interpretation": "This image is an educational poster aimed at promoting good digestion. It explains that small sips of water with meals are better for digestion than large gulps. The creator wants the viewer to understand that the volume and timing of water with meals are crucial for optimal digestion.\n\n\n\n",
+    "is_flagged": false,
+    "flag_reason": "safe",
+    "category": "wellness",
+    "added_at": "2026-05-07T19:34:39.012615"
+  },
+  {
+    "id": 10,
+    "image_path": "kb_images/pic19.jpg",
+    "interpretation": "This image is a poster designed to provide guidance on protecting one's workplace from the spread of the virus. It emphasizes the importance of handwashing, avoiding close contact with sick individuals, covering the mouth when sneezing or coughing, and maintaining cleanliness and disinfection of high-touch surfaces. The poster aims to educate and inform viewers about the precautions they should take to minimize the risk of contracting the virus.\n",
+    "is_flagged": false,
+    "flag_reason": "safe",
+    "category": "wellness",
+    "added_at": "2026-05-07T19:34:39.012665"
+  },
+  {
+    "id": 11,
+    "image_path": "kb_images/pic20.jpg",
+    "interpretation": "The image shows a close-up of a person's hand, with a small, fresh cut or abrasion on the palm. The cut appears to be slightly bloody, indicating it has been recently injured. The intent or purpose of this image is likely to show a minor wound for educational or medical purposes. The emotional message conveyed is one of caution and the importance of taking care of one's skin, especially when engaging in activities that could potentially cause injuries. The creator wants the viewer to understand the importance of self-care and the potential risks associated with minor injuries.\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "wellness",
+    "added_at": "2026-05-07T19:34:39.012713"
+  },
+  {
+    "id": 12,
+    "image_path": "kb_images/pic21.png",
+    "interpretation": "This image is an infographic that highlights the benefits of yoga. It aims to convey the positive effects of yoga on various aspects of a person's health and well-being. The emotional message is one of health and wellness, encouraging viewers to consider incorporating yoga into their daily routine. The creator wants the viewer to understand the benefits of yoga, such as improving posture, preventing respiratory problems, lowering blood pressure, and strengthening muscles.\n\n\n",
+    "is_flagged": false,
+    "flag_reason": "safe",
+    "category": "wellness",
+    "added_at": "2026-05-07T19:34:39.012761"
+  },
+  {
+    "id": 13,
+    "image_path": "kb_images/pic22.png",
+    "interpretation": "This image is an educational poster aimed at promoting tick-free living. It conveys the message that ticks can carry harmful bacteria and viruses, and that avoiding tick bites is crucial for maintaining health. The creator wants the viewer to understand the importance of taking precautions to prevent tick bites and the potential risks associated with them.\n\n\n",
+    "is_flagged": false,
+    "flag_reason": "safe",
+    "category": "wellness",
+    "added_at": "2026-05-07T19:34:39.012841"
+  },
+  {
+    "id": 14,
+    "image_path": "kb_images/pic24.jpg",
+    "interpretation": "This image is a warning sign that says \"Do Not Touch!\" It is a reminder to avoid touching syringes, as they can spread diseases. The red \"no touch\" symbol is a visual cue to emphasize the importance of not handling them. The emotional message is to prevent the spread of disease, and the creator wants the viewer to understand the seriousness of this warning.\n\n\n",
+    "is_flagged": false,
+    "flag_reason": "safe",
+    "category": "wellness",
+    "added_at": "2026-05-07T19:34:39.012997"
+  },
+  {
+    "id": 15,
+    "image_path": "kb_images/pic25.png",
+    "interpretation": "This image is a public health warning about preventing Salmonella, a type of bacteria that can cause foodborne illnesses. It emphasizes the importance of handling animals carefully, washing hands regularly, and avoiding eating uncooked vegetables and fruits. The creator wants the viewer to understand the seriousness of Salmonella and the need for proper hygiene practices to prevent illness.\n\n\n",
+    "is_flagged": false,
+    "flag_reason": "safe",
+    "category": "wellness",
+    "added_at": "2026-05-07T19:34:39.013099"
+  },
+  {
+    "id": 16,
+    "image_path": "kb_images/pic26.jpg",
+    "interpretation": "The image is a public health awareness poster titled \"It's Lyme Time: Be Tick Aware.\" The intent is to educate the viewer about the importance of being aware of ticks and their potential to carry the Lyme disease bacterium. The emotional message is to raise awareness and caution about the risk of contracting Lyme disease. The creator wants the viewer to understand the importance of taking precautions to avoid tick bites and to seek medical attention if they suspect they have been bitten by a tick.\n\n\n\n",
+    "is_flagged": false,
+    "flag_reason": "safe",
+    "category": "wellness",
+    "added_at": "2026-05-07T19:34:39.013281"
+  },
+  {
+    "id": 17,
+    "image_path": "kb_images/pic51.jpg",
+    "interpretation": "The image is an advertisement for medical compression stockings. It conveys the intent to inform the viewer about the benefits of wearing these stockings, such as improved circulation, prevention of blood clots, alleviation of pain and discomfort, and enhancement of healing. The emotional message is to promote the use of these products for health and well-being. The creator wants the viewer to understand the importance of wearing compression stockings for health and comfort.\n\n",
+    "is_flagged": false,
+    "flag_reason": "safe",
+    "category": "wellness",
+    "added_at": "2026-05-07T19:34:39.013394"
+  },
+  {
+    "id": 18,
+    "image_path": "kb_images/pic27.jpg",
+    "interpretation": "This image shows a close-up of a person's arm with a skin condition that appears to be psoriasis. The condition is characterized by red, scaly patches that can be seen as circular or oval shapes. The intent of this image is to provide a visual representation of psoriasis, which is a chronic inflammatory skin condition. The emotional message conveyed is one of discomfort and the need for treatment. The creator wants the viewer to understand the severity and impact of psoriasis on the skin.\n\n\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.013490"
+  },
+  {
+    "id": 19,
+    "image_path": "kb_images/pic28.jpg",
+    "interpretation": "The image shows a person's arm with a skin condition, possibly psoriasis, characterized by raised, scaly patches. The intent of the image is to raise awareness about this condition and its effects on the skin. The emotional message is one of discomfort and the need for understanding and support. The creator wants the viewer to understand the severity and impact of psoriasis on the skin.\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.013662"
+  },
+  {
+    "id": 20,
+    "image_path": "kb_images/pic29.jpg",
+    "interpretation": "The image shows a close-up of a person's back, focusing on the area around the neck and shoulders. The skin appears to have a rough texture, possibly indicating a condition such as psoriasis or dandruff. The intent of the image is to highlight the affected area, possibly to draw attention to a health issue or to provide a visual representation of the condition. The emotional message conveyed is one of discomfort or discomfort, as the texture of the skin suggests an unclean or irritated area. The creator's intent is to inform the viewer about the condition and to raise awareness about it.\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.013836"
+  },
+  {
+    "id": 21,
+    "image_path": "kb_images/pic30.jpg",
+    "interpretation": "This image appears to be a photograph of a person's neck, showing a condition that resembles a skin condition known as acne. The condition is characterized by small, red, and pimple-like spots or bumps on the skin. The intent of this image is to provide a visual representation of the condition, possibly to educate or inform about it. The emotional message conveyed is one of concern or discomfort associated with the condition. The creator's purpose is to provide a clear and detailed view of the condition for viewers to understand and possibly seek medical advice or treatment.\n\n\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.013909"
+  },
+  {
+    "id": 22,
+    "image_path": "kb_images/pic31.jpg",
+    "interpretation": "This image appears to be a close-up of a human skin condition, possibly psoriasis, characterized by red, scaly patches and small, white, raised bumps. The intent of the image is to provide a visual representation of the condition, which can be distressing and uncomfortable for the person affected. The emotional message conveyed is one of discomfort and the potential for the condition to cause pain and itching. The creator's purpose is to educate or raise awareness about the condition, which can be a sensitive and personal topic for those affected.\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.014004"
+  },
+  {
+    "id": 23,
+    "image_path": "kb_images/pic32.jpg",
+    "interpretation": "This image shows a close-up of a human arm with a skin condition that appears to be psoriasis. The condition is characterized by red, scaly patches and small, raised bumps. The intent of the image is to highlight the condition and possibly raise awareness about it. The emotional message conveyed is one of discomfort and the need for treatment. The creator wants the viewer to understand the severity of the condition and the need for professional help.\n\n\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.014128"
+  },
+  {
+    "id": 24,
+    "image_path": "kb_images/pic33.jpg",
+    "interpretation": "The image shows a person's hands with numerous white spots, which could be indicative of a condition such as vitiligo. The intent or purpose of this image is to draw attention to the condition and possibly raise awareness about it. The emotional message conveyed is one of discomfort or distress, as the white spots on the hands may be a source of concern or discomfort. The creator wants the viewer to understand that this condition can have a significant impact on an individual's self-esteem and quality of life.\n\n\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.014198"
+  },
+  {
+    "id": 25,
+    "image_path": "kb_images/pic34.jpg",
+    "interpretation": "The image shows a person with a severe rash on their back, which appears to be caused by psoriasis. The intent of the image is to raise awareness about the condition and its impact on the person's quality of life. The emotional message is one of distress and the need for support. The creator wants the viewer to understand the severity of the condition and the challenges it poses.\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.014245"
+  },
+  {
+    "id": 26,
+    "image_path": "kb_images/pic35.jpg",
+    "interpretation": "This image shows a person's arm with a skin condition that appears to be psoriasis. The condition is characterized by scaly, red, and itchy patches. The intent of the image is to highlight the condition and possibly to raise awareness about it. The emotional message conveyed is one of discomfort and the need for treatment. The creator wants the viewer to understand the severity of the condition and the need for professional help.\n\n\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.014388"
+  },
+  {
+    "id": 27,
+    "image_path": "kb_images/pic36.jpg",
+    "interpretation": "The image shows a close-up of a person's arm, with a noticeable red rash or rash on the skin. The intent or purpose of this image is likely to draw attention to the condition, possibly to alert someone to the need for medical attention or to provide information about the condition. The emotional message conveyed is one of concern or concern about the condition, as the rash is visible and could be a sign of an underlying medical issue. The creator wants the viewer to understand that the condition is serious and requires immediate attention.\n\n\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.014519"
+  },
+  {
+    "id": 28,
+    "image_path": "kb_images/pic37.jpg",
+    "interpretation": "This image shows a close-up of a hand with a skin condition that appears to be psoriasis. The condition is characterized by raised, scaly patches and redness. The intent of the image is to highlight the condition and possibly raise awareness about it. The emotional message conveyed is one of discomfort and the need for medical attention. The creator wants the viewer to understand the severity of the condition and the need for professional treatment.\n\n\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.014614"
+  },
+  {
+    "id": 29,
+    "image_path": "kb_images/pic38.jpg",
+    "interpretation": "The image shows a close-up of a person's feet, with one foot slightly raised and the other foot resting on a surface. The feet appear to be in a relaxed position, possibly on a bed or a soft surface. The image does not convey any specific emotional message or intent. The creator's purpose might be to show the feet in a natural and unposed state, possibly for a personal or artistic purpose.\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.014716"
+  },
+  {
+    "id": 30,
+    "image_path": "kb_images/pic39.jpg",
+    "interpretation": "The image shows a pair of hands, one slightly larger than the other, most likely swelling, with fingers spread apart. The hands are positioned on a rocky surface near a body of water, possibly a river or stream. The overall scene suggests a casual, outdoor setting, possibly during a break or a moment of relaxation. The hands appear to be in a relaxed, natural pose, with the larger hand slightly overlapping the smaller one. The image conveys a sense of simplicity and tranquility, with the focus on the hands and the natural surroundings. The creator may want the viewer to appreciate the simplicity and beauty of the moment captured in the image.\n\n\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.014798"
+  },
+  {
+    "id": 31,
+    "image_path": "kb_images/pic40.jpg",
+    "interpretation": "This image appears to be a close-up of a human foot, specifically focusing on the area around the ankle. The skin is slightly raised and appears to be inflamed or irritated, with blisters possibly indicating an infection or an allergic reaction. The intent of the image is to highlight the condition of the skin, possibly to draw attention to a medical issue or to provide information about the condition. The emotional message conveyed is one of discomfort or concern, as the raised skin and the visible irritation suggest an issue that requires attention. The creator wants the viewer to understand the importance of seeking medical attention for such conditions.\n\n\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.014855"
+  },
+  {
+    "id": 32,
+    "image_path": "kb_images/pic41.jpg",
+    "interpretation": "The image shows a close-up of a person's foot, specifically the ball area of the foot. The foot appears to be swollen and has a large, dark bruise or injury at the ball region of the foot. The image conveys a sense of discomfort or pain, possibly indicating an injury or an underlying health issue. The creator may want to convey that the person is experiencing discomfort or pain in their foot.\n\n\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.015043"
+  },
+  {
+    "id": 33,
+    "image_path": "kb_images/pic42.jpg",
+    "interpretation": "This image appears to be a photograph of a person's foot, showing a severe case of skin infection or burn. The skin is red and swollen, with visible scarring and a large burn area. The intent or purpose of this image is likely to raise awareness about the dangers of skin infections and the importance of proper treatment. The emotional message conveyed is one of urgency and concern for the person's health. The creator wants the viewer to understand the severity of the condition and the need for prompt medical attention.\n\n\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.015173"
+  },
+  {
+    "id": 34,
+    "image_path": "kb_images/pic43.jpg",
+    "interpretation": "The image shows a hand with a red, blood-like stain on the palm, possibly indicating a recent injury or accident. The intent or purpose of this image is to convey a sense of injury or trauma. The emotional message or feeling it conveys is one of distress or concern. The creator wants the viewer to understand that the hand is injured and possibly in need of medical attention.\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.015257"
+  },
+  {
+    "id": 35,
+    "image_path": "kb_images/pic44.jpg",
+    "interpretation": "The image shows a close-up of a scar on a person's arm. The scar appears to be fresh and is located on the inner side of the wrist. The scar is red and slightly raised, indicating it may be a recent injury. The intent or purpose of this image is likely to show the scar as a reminder of a past event or to convey a message about healing and resilience. The emotional message conveyed is one of strength and determination, as the scar serves as a testament to the person's ability to recover from a traumatic event. The creator wants the viewer to understand that scars are not just physical marks but also a symbol of resilience and growth.\n\n\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.015336"
+  },
+  {
+    "id": 36,
+    "image_path": "kb_images/pic45.jpg",
+    "interpretation": "The image shows a close-up of a hand, with a focus on the  little finger. The  finger is bent at the joint at an abnormal angle, indicating broken finger. The background appears to be a car interior, with a steering wheel visible. The overall tone of the image is neutral, with no specific emotional message conveyed. The creator may be trying to highlight the flexibility and dexterity of the hand.\n\n\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.015432"
+  },
+  {
+    "id": 37,
+    "image_path": "kb_images/pic47.jpg",
+    "interpretation": "The image shows a close-up of a human eye, specifically focusing on the iris and the surrounding area. The eye appears to be red, which could indicate a variety of conditions such as eye irritation, inflammation, or an allergic reaction. The redness might also suggest that the person is experiencing discomfort or pain. The intent of this image is to draw attention to the condition of the eye, possibly to alert someone to the need for medical attention or to raise awareness about the importance of eye health. The emotional message conveyed is one of concern and possibly discomfort. The creator wants the viewer to understand the significance of the red eye and the potential need for medical intervention.\n\n\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.015489"
+  },
+  {
+    "id": 38,
+    "image_path": "kb_images/pic48.jpg",
+    "interpretation": "The image shows a close-up of a human eye with a visible red spot on the cornea. The intent of the image is to highlight a potential eye condition, possibly a corneal abrasion or a small lesion. The emotional message conveyed is one of concern or concern about the health of the eye. The creator wants the viewer to understand that this is a medical condition and to seek professional medical attention if necessary.\n\n\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.015561"
+  },
+  {
+    "id": 39,
+    "image_path": "kb_images/pic49.jpg",
+    "interpretation": "The image shows a close-up of a person's eye, with a visible tear running down the lower lid. The eye appears to be inflamed or irritated, with redness and swelling around the eye. The intent or purpose of this image is likely to convey a sense of discomfort or pain, possibly due to an eye infection or injury. The emotional message or feeling conveyed is one of discomfort or distress. The creator wants the viewer to understand that the eye is in need of attention and care.\n\n\n",
+    "is_flagged": true,
+    "flag_reason": "",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.015652"
+  },
+  {
+    "id": 40,
+    "image_path": "kb_images/pic8.jpg",
+    "interpretation": "This image shows visible injury that requires medical attention. The wound appears recent and needs proper care. The purpose is likely medical documentation or educational content about wound care. Viewers should understand this depicts actual injury requiring professional treatment.",
+    "is_flagged": true,
+    "flag_reason": "visible wound, injury requiring medical attention",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.015756"
+  },
+  {
+    "id": 41,
+    "image_path": "kb_images/pic14.jpg",
+    "interpretation": "This depicts a surgical procedure in progress, showing the medical team at work. The intent is educational or documentary, revealing the precise nature of surgical intervention. The creator wants viewers to understand the complexity and precision required in medical procedures. This represents the intersection of human vulnerability and medical expertise.",
+    "is_flagged": true,
+    "flag_reason": "surgical procedure visible, graphic medical content",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.015827"
+  },
+  {
+    "id": 42,
+    "image_path": "kb_images/pic12.jpg",
+    "interpretation": "The image shows a close-up of a person's arm with a red, itchy rash. The intent or purpose of this image is to highlight the condition of the skin, possibly to draw attention to a medical issue or to raise awareness about skin conditions. The emotional message conveyed is one of discomfort and discomfort, as the rash is described as itchy. The creator wants the viewer to understand that the skin condition is causing discomfort and may require medical attention.\n",
+    "is_flagged": true,
+    "flag_reason": "red rashes visible, graphic medical content",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.015978"
+  },
+  {
+    "id": 43,
+    "image_path": "kb_images/pic50.jpg",
+    "interpretation": "The image shows a close-up of a person's mouth and tongue, with a noticeable red, inflamed area on the tongue. The intent of this image is to draw attention to the condition, possibly to raise awareness about a specific health issue or to provide information about it. The emotional message conveyed is one of concern and possibly discomfort, as the condition appears to be painful or uncomfortable. The creator wants the viewer to understand the severity of the condition and the need for medical attention.\n\n",
+    "is_flagged": true,
+    "flag_reason": "red rashes visible, graphic medical content",
+    "category": "medical",
+    "added_at": "2026-05-07T19:34:39.016112"
+  }
+]

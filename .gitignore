@@ -1,0 +1,1 @@
+google_credentials.json google_token.pkl embeddings.pkl faiss_index.bin qwen2-vl-2b-local/ venv/ __pycache__/ *.pyc 
