@@ -76,44 +76,6 @@ Google Drive Upload + Gmail Alert Draft (if flagged)
 └── .gitignore
 ```
 
----
-
-## Setup Instructions
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/sairaxita/RAG-Based-Medical-Image-Analysis.git
-cd RAG-Based-Medical-Image-Analysis
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Download the model (~4 GB)
-```bash
-python model_download.py
-```
-
-### 4. Add Google credentials
-- Go to [Google Cloud Console](https://console.cloud.google.com)
-- Enable Drive API and Gmail API
-- Download your OAuth credentials as `google_credentials.json` and place it in the project folder
-
-### 5. Build the knowledge base and index
-```bash
-python build_knowledge_base.py
-python build_embeddings.py
-python build_faiss_index.py
-```
-
-### 6. Run the system
-```bash
-python rag_analyzer.py
-```
-
----
 
 ## Safety Design
 
